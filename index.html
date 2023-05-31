@@ -6,21 +6,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma" />
-    <style>
-        body,
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            font-family: "Karma", sans-serif;
-        }
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Karma"
+    />
 
-        .w3-bar-block .w3-bar-item {
-            padding: 20px;
+    <style>
+      body,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Karma", sans-serif;
+      }
+      .w3-bar-block .w3-bar-item {
+        padding: 20px;
+      }
+      #jeelanProfile {
+        border: 2px black solid;
+      }
+      #jeelanName {
+        border-bottom: 1px black solid;
+      }
+      ul {
+        list-style-type: none; /* Remove bullets */
+        padding: 0; /* Remove padding */
+        margin: 0; /* Remove margins */
+      }
+      a img {
+        width: 25%;
+      }
+      li {
+        margin-bottom: 10%;
+      }
+      @media screen and (max-width: 500px) {
+        #contactUs {
+          flex-direction: column;
+          align-items: center;
         }
+      }
     </style>
 </head>
 
@@ -57,53 +83,66 @@
         </div>
         <hr />
 
-        <!-- First Photo Grid-->
-        <div class="w3-row-padding w3-padding-16 w3-center" id="food" style="display: flex; justify-content: center">
-            <div class="w3-quarter">
-                <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="Sandwich" style="width: 100%" />
-                <h3>Jeelan Alotaibi</h3>
-                <p>
-                    Just some random text, lorem ipsum text praesent tincidunt ipsum
-                    lipsum.
-                </p>
-            </div>
-            <div class="w3-quarter">
-                <p>Sarah Almashaal</p>
-                <div class="contact-container">
-                <div class="linkedin">
-                    <a href="https://www.linkedin.com/in/sarah-almeshaal-52b78a170" class="contact-info">
-                        <img src="linkedin.png" alt="linkedin" width="20px" />
-                        sarah-almeshaal
-                    </a>
-                </div>
-                <div class="github">
-                    <a href="https://github.com/Sarah0Almeshaal" class="contact-info">
-                        <img src="github.png" alt="github" width="20px" />
-                        Sarah0Almeshaal
-                     </a>
-                </div>
-                <div class="email">
-                    <a href="mailto:s_almeshaal@outlook.com" class="contact-info">
-                        <img src="outlook.png" alt="linkedin" width="20px" />
-                        s_almeshaal@outlook.com
-                    </a>
-                </div>
-                <div class="phone">
-                    <a href="tel:0544330645" class="contact-info">
-                        <img src="apple.png" alt="linkedin" width="20px" />
-                        +96654433045
-                    </a>
-                </div>
-            </div>
-            </div>
-            <div class="w3-quarter">
-                <img src="https://www.w3schools.com/w3images/cherries.jpg" alt="Cherries" style="width: 100%" />
-                <h3>Fatima Alyami</h3>
-                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-                <p>What else?</p>
-            </div>
+      <!-- First Photo Grid-->
+      <div
+        class="w3-row-padding w3-padding-16 w3-center"
+        id="contactUs"
+        style="display: flex; justify-content: center"
+      >
+        <div class="w3-quarter" id="jeelanProfile">
+          <h3 id="jeelanName">Jeelan Alotaibi</h3>
+          <div>
+            <ul>
+              <li>
+                <a href="http://linkedin.com/in/jeelannn-alotaibii"
+                  ><img src="linkedin.png"
+                /></a>
+                jeelannn-alotaibii
+              </li>
+              <li>
+                <a href="https://github.com/Jeelan-Ot"
+                  ><img src="github.png"
+                /></a>
+                /Jeelan-Ot
+              </li>
+              <li>
+                <a href="mailto:jeeotaibi@gmail.com:"
+                  ><img src="email.png"
+                /></a>
+                Jeeotaibi@gmail.com
+              </li>
+              <li>
+                <a href="tel:+966505969014"><img src="phone.png" /></a>
+                0505969014
+              </li>
+            </ul>
+          </div>
         </div>
-        <!-- End page content -->
+        <div class="w3-quarter">
+          <img
+            src="https://www.w3schools.com/w3images/steak.jpg"
+            alt="Steak"
+            style="width: 100%"
+          />
+          <h3>Sarah Almashaal</h3>
+          <div>
+            <ul>
+              <li><a href=""></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="w3-quarter">
+          <img
+            src="https://www.w3schools.com/w3images/cherries.jpg"
+            alt="Cherries"
+            style="width: 100%"
+          />
+          <h3>Fatima Alyami</h3>
+          <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+          <p>What else?</p>
+        </div>
+      </div>
+      <!-- End page content -->
     </div>
 </body>
 
