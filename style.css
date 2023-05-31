@@ -1993,37 +1993,34 @@ a {
     border-color: #e7ffff !important;
 }
 
-.contact-info {
-    text-decoration: none;
-    font-family: monospace, monospace;
-    font-size: 1em;
-    padding: 20%;
-}
 
-.contact-container {
-    border: #000;
-}
 
-.contact-container {
+.container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 10px;
+    grid-template-columns: 1.5fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 20px 22px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "."
+        "."
+        "."
+        ".";
 }
 
-.linkedin {
-    grid-area: 1 / 1 / 2 / 6;
+.container a {
+    text-align: left;
+    margin-left: 5%;
+    text-decoration: none;
 }
 
-.github {
-    grid-area: 2 / 1 / 3 / 6;
+a img {
+    padding-left: 8%;
 }
 
-.email {
-    grid-area: 3 / 1 / 4 / 6;
-}
-
-.phone {
-    grid-area: 4 / 1 / 5 / 6;
+a p {
+    display: inline;
+    padding-left: 5%;
+    font-weight: bold;
+    font-size: small;
 }
