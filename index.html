@@ -9,6 +9,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Karma"
     />
+
     <style>
       body,
       h1,
@@ -21,6 +22,29 @@
       }
       .w3-bar-block .w3-bar-item {
         padding: 20px;
+      }
+      #jeelanProfile {
+        border: 2px black solid;
+      }
+      #jeelanName {
+        border-bottom: 1px black solid;
+      }
+      ul {
+        list-style-type: none; /* Remove bullets */
+        padding: 0; /* Remove padding */
+        margin: 0; /* Remove margins */
+      }
+      a img {
+        width: 25%;
+      }
+      li {
+        margin-bottom: 10%;
+      }
+      @media screen and (max-width: 500px) {
+        #contactUs {
+          flex-direction: column;
+          align-items: center;
+        }
       }
     </style>
   </head>
@@ -69,20 +93,37 @@
       <!-- First Photo Grid-->
       <div
         class="w3-row-padding w3-padding-16 w3-center"
-        id="food"
+        id="contactUs"
         style="display: flex; justify-content: center"
       >
-        <div class="w3-quarter">
-          <img
-            src="https://www.w3schools.com/w3images/sandwich.jpg"
-            alt="Sandwich"
-            style="width: 100%"
-          />
-          <h3>Jeelan Alotaibi</h3>
-          <p>
-            Just some random text, lorem ipsum text praesent tincidunt ipsum
-            lipsum.
-          </p>
+        <div class="w3-quarter" id="jeelanProfile">
+          <h3 id="jeelanName">Jeelan Alotaibi</h3>
+          <div>
+            <ul>
+              <li>
+                <a href="http://linkedin.com/in/jeelannn-alotaibii"
+                  ><img src="linkedin.png"
+                /></a>
+                jeelannn-alotaibii
+              </li>
+              <li>
+                <a href="https://github.com/Jeelan-Ot"
+                  ><img src="github.png"
+                /></a>
+                /Jeelan-Ot
+              </li>
+              <li>
+                <a href="mailto:jeeotaibi@gmail.com:"
+                  ><img src="email.png"
+                /></a>
+                Jeeotaibi@gmail.com
+              </li>
+              <li>
+                <a href="tel:+966505969014"><img src="phone.png" /></a>
+                0505969014
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="w3-quarter">
           <img
@@ -91,10 +132,11 @@
             style="width: 100%"
           />
           <h3>Sarah Almashaal</h3>
-          <p>
-            Once again, some random text to lorem lorem lorem lorem ipsum text
-            praesent tincidunt ipsum lipsum.
-          </p>
+          <div>
+            <ul>
+              <li><a href=""></a></li>
+            </ul>
+          </div>
         </div>
         <div class="w3-quarter">
           <img
