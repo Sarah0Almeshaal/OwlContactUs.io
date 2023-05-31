@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>Owl Security System</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -24,10 +23,12 @@
       .w3-bar-block .w3-bar-item {
         padding: 20px;
       }
-      #jeelanProfile {
+
+      .w3-quarter {
         border: 2px black solid;
+        margin: 0 2%;
       }
-      #jeelanName {
+      .names {
         border-bottom: 1px black solid;
       }
       ul {
@@ -41,47 +42,66 @@
       li {
         margin-bottom: 10%;
       }
+
       @media screen and (max-width: 500px) {
         #contactUs {
           flex-direction: column;
           align-items: center;
         }
+        .w3-col,
+        .w3-half,
+        .w3-third,
+        .w3-twothird,
+        .w3-threequarter,
+        .w3-quarter {
+          float: left;
+          width: 70%;
+        }
       }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Top menu -->
     <div class="w3-top">
-        <div class="w3-white w3-xlarge" style="max-width: 1200px; margin: auto">
-            <div class="w3-center w3-padding-16">
-                <img src="/OwlContactUs/Logo.jpeg" alt="" id="logo" width="30%" />
-            </div>
+      <div class="w3-white w3-xlarge" style="max-width: 1200px; margin: auto">
+        <div class="w3-center w3-padding-16">
+          <img src="/OwlContactUs/Logo.jpeg" alt="" id="logo" width="20%" />
         </div>
+      </div>
     </div>
 
     <!-- !PAGE CONTENT! -->
-    <div class="w3-main w3-content w3-padding" style="max-width: 1200px; margin-top: 100px">
-        <hr id="about" />
-        <!-- About Section -->
-        <div class="w3-container w3-padding-32 w3-center">
-            <h3>Architacture Design</h3>
-            <br />
-            <img src="arch-design.png" alt="Me" class="w3-image" style="display: block; margin: auto" width="800"
-                height="533" />
-            <div class="w3-padding-32">
-                <h4><b>About The Project</b></h4>
-                <p>
-                    Physical violence in both the public and private sectors has a significant impact on the quality and
-                    safety of people's lives. Owl Security System proposes an automatic physical violence detection
-                    system that could recognize violent behaviors.
-
-                    The system will send automated security alerts to security guards, and system configuration will be
-                    handled by the user admin.
-                </p>
-            </div>
+    <div
+      class="w3-main w3-content w3-padding"
+      style="max-width: 1200px; margin-top: 100px"
+    >
+      <hr id="about" />
+      <!-- About Section -->
+      <div class="w3-container w3-padding-32 w3-center">
+        <h3>Architacture Design</h3>
+        <br />
+        <img
+          src="arch-design.png"
+          alt="Me"
+          class="w3-image"
+          style="display: block; margin: auto"
+          width="800"
+          height="533"
+        />
+        <div class="w3-padding-32">
+          <h4><b>About The Project</b></h4>
+          <p>
+            Physical violence in both the public and private sectors has a
+            significant impact on the quality and safety of people's lives. Owl
+            Security System proposes an automatic physical violence detection
+            system that could recognize violent behaviors. The system will send
+            automated security alerts to security guards, and system
+            configuration will be handled by the user admin.
+          </p>
         </div>
-        <hr />
+      </div>
+      <hr />
 
       <!-- First Photo Grid-->
       <div
@@ -93,7 +113,36 @@
       <div class="container"></div>
 
         <div class="w3-quarter" id="jeelanProfile">
-          <h3 id="jeelanName">Jeelan Alotaibi</h3>
+          <h3 class="names">Jeelan Alotaibi</h3>
+          <div>
+            <ul>
+              <li>
+                <a href="http://linkedin.com/in/jeelannn-alotaibii"
+                  ><img src="linkedin.png"
+                /></a>
+                jeelannn-alotaibii
+              </li>
+              <li>
+                <a href="https://github.com/Jeelan-Ot"
+                  ><img src="github.png"
+                /></a>
+                /Jeelan-Ot
+              </li>
+              <li>
+                <a href="mailto:jeeotaibi@gmail.com:"
+                  ><img src="email.png"
+                /></a>
+                Jeeotaibi@gmail.com
+              </li>
+              <li>
+                <a href="tel:+966505969014"><img src="phone.png" /></a>
+                0505969014
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="w3-quarter" id="saraProfile">
+          <h3 class="names">Sarah Almashaal</h3>
           <div>
             <ul>
               <li>
@@ -122,31 +171,36 @@
           </div>
         </div>
         <div class="w3-quarter">
-          <img
-            src="https://www.w3schools.com/w3images/steak.jpg"
-            alt="Steak"
-            style="width: 100%"
-          />
-          <h3>Sarah Almashaal</h3>
+          <h3 class="names">Fatima Alyami</h3>
           <div>
             <ul>
-              <li><a href=""></a></li>
+              <li>
+                <a href="http://linkedin.com/in/jeelannn-alotaibii"
+                  ><img src="linkedin.png"
+                /></a>
+                jeelannn-alotaibii
+              </li>
+              <li>
+                <a href="https://github.com/Jeelan-Ot"
+                  ><img src="github.png"
+                /></a>
+                /Jeelan-Ot
+              </li>
+              <li>
+                <a href="mailto:jeeotaibi@gmail.com:"
+                  ><img src="email.png"
+                /></a>
+                Jeeotaibi@gmail.com
+              </li>
+              <li>
+                <a href="tel:+966505969014"><img src="phone.png" /></a>
+                0505969014
+              </li>
             </ul>
           </div>
-        </div>
-        <div class="w3-quarter">
-          <img
-            src="https://www.w3schools.com/w3images/cherries.jpg"
-            alt="Cherries"
-            style="width: 100%"
-          />
-          <h3>Fatima Alyami</h3>
-          <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-          <p>What else?</p>
         </div>
       </div>
       <!-- End page content -->
     </div>
-</body>
-
+  </body>
 </html>
