@@ -1993,8 +1993,6 @@ a {
     border-color: #e7ffff !important;
 }
 
-
-
 .container {
     display: grid;
     grid-template-columns: 1.5fr;
@@ -2006,6 +2004,8 @@ a {
         "."
         "."
         ".";
+        margin-top: 10%;
+        margin-bottom: 10%;
 }
 
 .container a {
